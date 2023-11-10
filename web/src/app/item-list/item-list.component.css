@@ -1,0 +1,14 @@
+.item-list-component > .item-list-item{
+    padding: 0.5rem;
+    max-width: 600px;
+}
+
+.item-list-component > .item-list-item:nth-child(even){
+    background-color: #dadada;
+}
+
+.item-list-component > .item-list-item:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
